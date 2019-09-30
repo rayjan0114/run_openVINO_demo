@@ -1,0 +1,97 @@
+{	
+	"USERNAME":"[Custom]",
+	"DOWNLOAD_PATH":"[Custom]",
+
+
+	"crossroad_camera_demo":[
+		[
+			"/Security/object_detection/crossroad/0078/dldt/FP32/person-vehicle-bike-detection-crossroad-0078.xml",
+			"/Security/object_attributes/pedestrian/person-attributes-recognition-crossroad-0230/dldt/FP32/person-attributes-recognition-crossroad-0230.xml",
+			"/Retail/object_reidentification/pedestrian/rmnet_based/0079/dldt/FP32/person-reidentification-retail-0079.xml"
+		],
+		[
+			"/Security/object_detection/crossroad/1016/dldt/FP32/person-vehicle-bike-detection-crossroad-1016.xml",
+			"/Security/object_attributes/pedestrian/person-attributes-recognition-crossroad-0230/dldt/FP32/person-attributes-recognition-crossroad-0230.xml",
+			"/Retail/object_reidentification/pedestrian/rmnet_based/0079/dldt/FP32/person-reidentification-retail-0079.xml"
+		]	
+	],
+
+	"gaze_estimation_demo":[
+		[
+			"/Transportation/object_detection/face/pruned_mobilenet_reduced_ssd_shared_weights/dldt/FP32/face-detection-adas-0001.xml",
+			"/Retail/object_detection/face/sqnet1.0modif-ssd/0004/dldt/FP32/face-detection-retail-0004.xml",
+			"/Transportation/object_attributes/headpose/vanilla_cnn/dldt/FP32/head-pose-estimation-adas-0001.xml",
+			"/Transportation/object_attributes/facial_landmarks/custom-35-facial-landmarks/dldt/FP32/facial-landmarks-35-adas-0002.xml"
+		]
+	],
+
+	"human_pose_estimation_demo":[
+		"/Transportation/human_pose_estimation/mobilenet-v1/dldt/FP32/human-pose-estimation-0001.xml"
+	],
+
+	"interactive_face_detection_demo":[
+		[
+			"/Transportation/object_detection/face/pruned_mobilenet_reduced_ssd_shared_weights/dldt/FP32/face-detection-adas-0001.xml",
+			"/Retail/object_attributes/age_gender/dldt/FP32/age-gender-recognition-retail-0013.xml",
+			"/Transportation/object_attributes/headpose/vanilla_cnn/dldt/FP32/head-pose-estimation-adas-0001.xml",
+			"/Retail/object_attributes/emotions_recognition/0003/dldt/FP32/emotions-recognition-retail-0003.xml",
+			"/Transportation/object_attributes/facial_landmarks/custom-35-facial-landmarks/dldt/FP32/facial-landmarks-35-adas-0002.xml"
+		]
+	],
+
+	"mask_rcnn_demo":[],
+
+	"object_detection_demo_faster_rcnn":[],
+
+	"object_detection_demo_ssd_async":[],
+
+
+	"object_detection_demo_yolov3_async":[],
+
+	"pedestrian_tracker_demo":[
+		[
+			"/Retail/object_detection/pedestrian/rmnet_ssd/0013/dldt/FP32/person-detection-retail-0013.xml",
+			"/Retail/object_reidentification/pedestrian/rmnet_based/0031/dldt/FP32/person-reidentification-retail-0031.xml"
+		]
+	],
+
+	"security_barrier_camera_demo":[
+		[
+			"/Security/object_detection/barrier/0106/dldt/FP32/vehicle-license-plate-detection-barrier-0106.xml",
+			"/Security/object_attributes/vehicle/resnet10_update_1/dldt/FP32/vehicle-attributes-recognition-barrier-0039.xml",
+			"/Security/optical_character_recognition/license_plate/dldt/FP32/license-plate-recognition-barrier-0001.xml"
+		]
+	],
+
+	"smart_classroom_demo":[
+		[
+			"/Retail/action_detection/pedestrian/rmnet_ssd/0028_tf/dldt/FP32/person-detection-action-recognition-0006.xml",
+			"/Transportation/object_detection/face/pruned_mobilenet_reduced_ssd_shared_weights/dldt/FP32/face-detection-adas-0001.xml",
+			"/Retail/object_reidentification/face/mobilenet_based/dldt/FP32/face-reidentification-retail-0095.xml",
+			"/Retail/object_attributes/landmarks_regression/0009/dldt/FP32/landmarks-regression-retail-0009.xml"
+		],
+		[
+			"/Retail/action_detection/pedestrian/rmnet_ssd/0165/dldt/FP32/person-detection-action-recognition-0005.xml",
+			"/Transportation/object_detection/face/pruned_mobilenet_reduced_ssd_shared_weights/dldt/FP32/face-detection-adas-0001.xml",
+			"/Retail/object_reidentification/face/mobilenet_based/dldt/FP32/face-reidentification-retail-0095.xml",
+			"/Retail/object_attributes/landmarks_regression/0009/dldt/FP32/landmarks-regression-retail-0009.xml"
+		]
+	],
+
+	"segmentation_demo":[
+		"/Transportation/segmentation/curbs/dldt/FP32/road-segmentation-adas-0001.xml",
+		"/Transportation/segmentation/semantic_segmentation/icnet_icv/dldt/FP32/semantic-segmentation-adas-0001.xml"
+	],
+	
+	"text_detection_demo":[
+		[
+			"/Retail/object_detection/text/pixel_link_mobilenet_v2/0004/dldt/FP32/text-detection-0004.xml",
+			"/Retail/text_recognition/bilstm_crnn_bilstm_decoder/0012/dldt/FP32/text-recognition-0012.xml"
+		]
+	],
+	"super_resolution_demo":[
+			"/Security/super_resolution/srresnet/dldt/FP32/single-image-super-resolution-1033.xml"
+	]
+
+
+}
