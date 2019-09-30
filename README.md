@@ -2,7 +2,7 @@
 
 ### 教學：
 
-建置 / 試跑 openVINO  官方 Demos (CPU+FP32)
+建置 / 試跑 openVINO  官方 Demos (CPU+FP32) ，詳細指令可執行 python run_openvino_demo.py
 
 
 
