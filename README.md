@@ -4,7 +4,7 @@
 
 建置 / 試跑 openVINO  官方 Demos (CPU+FP32) ，
 
-若要理解/手動 openVINO 建議先查看 [](./doc/openVINONote.pdf) , 以下為更方便的 script !!
+若要理解/手動 openVINO 建議先查看 ./doc/openVINONote.pdf , 以下為更方便的自動化 script !!
 
 ### 自動化步驟：
 
