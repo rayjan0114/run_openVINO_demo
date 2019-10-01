@@ -1,12 +1,12 @@
 # openVINO-Demos 
 
-### 教學：
+### 動機/目的：
 
-建置 / 試跑 openVINO  官方 Demos (CPU+FP32) ，詳細指令可執行 python run_openvino_demo.py
+建置 / 試跑 openVINO  官方 Demos (CPU+FP32) ，
 
+若要理解/手動 openVINO 建議先查看 [](./doc/openVINONote.pdf) , 以下為更方便的 script !!
 
-
-### 安裝步驟：
+### 自動化步驟：
 
 1. 去官網安裝 openVINO : https://software.intel.com/en-us/openvino-toolkit/choose-download
 
@@ -28,5 +28,16 @@
    python run_openvino_demo.py --download_videos 
    ```
 
-   
+
+5.  跑官方測試程式
+
+```python
+python run_openvino_demo.py --[DemoName] [model_index] [.mp4/.bmp]
+```
+
+- 註:  可執行 python run_openvino_demo.py 會印出有哪些 [DemoName]
+- 註:  [model_index] 為陣列位址，對應到 openvino_demo.json 的第 [model_index]-1 個模型路徑設定
+- [.mp4/.bmp]  請放檔案的絕對路徑
+
+
 
